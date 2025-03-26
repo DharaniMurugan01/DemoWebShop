@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.*;
 public class ExcelDataProvider {
     @DataProvider(name = "exceldata")
     public Object[][] excelDP() throws IOException {
-        String loc = "C:\\Users\\ADMIN\\eclipse-workspace\\Demowebshop\\src\\test\\resources\\Book1.xlsx";
+        String loc =System.getProperty("user.dir") + "/src/test/resources/Book1.xlsx";
         return getData(loc, "Sheet1");
     }
     public String[][] getData(String file, String sheet) throws IOException {

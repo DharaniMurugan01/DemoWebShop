@@ -1,8 +1,10 @@
 package com.tests;
-import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.base.Basetest;
 import com.pages.Homepage;
+
+@Listeners(com.listener.Testlistener.class)
 public class Hometest extends Basetest{
 	private Homepage homepage;
     @Test(priority = 1)
