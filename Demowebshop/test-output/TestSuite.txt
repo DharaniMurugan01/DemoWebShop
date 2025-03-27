@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 2, Errors: 0, Skipped: 16, Time elapsed: 26.19 s <<< FAILURE! -- in TestSuite
-com.tests.Registertest.setUp -- Time elapsed: 19.77 s <<< FAILURE!
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 16, Time elapsed: 19.63 s <<< FAILURE! -- in TestSuite
+com.tests.Registertest.setUp -- Time elapsed: 11.73 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
 Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
@@ -26,7 +26,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
 	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
 	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-	at com.base.Basetest.setUp(Basetest.java:11)
+	at com.base.Basetest.setUp(Basetest.java:15)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -52,16 +52,16 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-com.tests.Hometest.setUp -- Time elapsed: 4.316 s <<< FAILURE!
+com.tests.Hometest.setUp -- Time elapsed: 5.580 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
 Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
@@ -76,7 +76,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
 	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
 	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-	at com.base.Basetest.setUp(Basetest.java:11)
+	at com.base.Basetest.setUp(Basetest.java:15)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
