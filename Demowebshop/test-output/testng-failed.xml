@@ -10,16 +10,9 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="register"/>
+          <include name="register" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.tests.Registertest -->
-      <class name="com.tests.Hometest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyHomePageText"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.tests.Hometest -->
     </classes>
   </test> <!-- HomePage Test(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

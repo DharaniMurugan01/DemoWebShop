@@ -1,79 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-27T06:19:20 IST" name="Test Suite" finished-at="2025-03-27T06:19:37 IST" duration-ms="16303">
+  <suite started-at="2025-03-27T06:24:37 IST" name="Test Suite" finished-at="2025-03-27T06:26:55 IST" duration-ms="137910">
     <groups>
     </groups>
-    <test started-at="2025-03-27T06:19:20 IST" name="HomePage Test" finished-at="2025-03-27T06:19:37 IST" duration-ms="16303">
+    <test started-at="2025-03-27T06:24:37 IST" name="HomePage Test" finished-at="2025-03-27T06:26:55 IST" duration-ms="137910">
       <class name="com.tests.Registertest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:23 IST" name="setUp" finished-at="2025-03-27T06:19:30 IST" duration-ms="7089" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.base.Basetest.setUp(Basetest.java:15)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:24:42 IST" name="setUp" finished-at="2025-03-27T06:25:06 IST" duration-ms="23610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:30 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:19:30 IST" duration-ms="1" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:25:06 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:25:25 IST" duration-ms="19149" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -92,7 +30,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="3">
               <value>
-                <![CDATA[2k21cse020@kiot.ac.in]]>
+                <![CDATA[2k21cse028@kiot.ac.in]]>
               </value>
             </param>
             <param index="4">
@@ -106,49 +44,51 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[text()='The specified email already exists']"}
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15dff20ff5c573219f154cc89ac589f5, findElement {value=//li[text()='The specified email already exists'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52692/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15dff20ff5c573219f154cc89ac589f5]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[text()='The specified email already exists']"}
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15dff20ff5c573219f154cc89ac589f5, findElement {value=//li[text()='The specified email already exists'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52692/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15dff20ff5c573219f154cc89ac589f5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.base.Basetest.setUp(Basetest.java:15)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
+at com.pages.Registerpage.Status(Registerpage.java:59)
+at com.tests.Registertest.register(Registertest.java:35)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -167,19 +107,19 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:30 IST" name="tearDown" finished-at="2025-03-27T06:19:30 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:25:25 IST" name="tearDown" finished-at="2025-03-27T06:25:26 IST" duration-ms="997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:30 IST" name="setUp" finished-at="2025-03-27T06:19:30 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:25:26 IST" name="setUp" finished-at="2025-03-27T06:25:38 IST" duration-ms="12555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:30 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:19:30 IST" duration-ms="0" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:25:38 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:25:45 IST" duration-ms="6568" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -212,80 +152,18 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.base.Basetest.setUp(Basetest.java:15)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="tearDown" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:25:45 IST" name="tearDown" finished-at="2025-03-27T06:25:46 IST" duration-ms="564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="setUp" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:25:46 IST" name="setUp" finished-at="2025-03-27T06:25:56 IST" duration-ms="10740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:25:56 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:26:03 IST" duration-ms="6696" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -318,80 +196,18 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.base.Basetest.setUp(Basetest.java:15)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="tearDown" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:26:03 IST" name="tearDown" finished-at="2025-03-27T06:26:04 IST" duration-ms="783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="setUp" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:26:04 IST" name="setUp" finished-at="2025-03-27T06:26:16 IST" duration-ms="12460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:26:16 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:26:21 IST" duration-ms="4571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -424,80 +240,18 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.base.Basetest.setUp(Basetest.java:15)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="tearDown" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:26:21 IST" name="tearDown" finished-at="2025-03-27T06:26:21 IST" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="setUp" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:26:21 IST" name="setUp" finished-at="2025-03-27T06:26:32 IST" duration-ms="11191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:26:32 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T06:26:38 IST" duration-ms="5069" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -530,210 +284,24 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.base.Basetest.setUp(Basetest.java:15)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:19:31 IST" name="tearDown" finished-at="2025-03-27T06:19:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T06:26:38 IST" name="tearDown" finished-at="2025-03-27T06:26:38 IST" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.Registertest -->
       <class name="com.tests.Hometest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T06:19:31 IST" name="setUp" finished-at="2025-03-27T06:19:37 IST" duration-ms="5459" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.base.Basetest.setUp(Basetest.java:15)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T06:26:38 IST" name="setUp" finished-at="2025-03-27T06:26:51 IST" duration-ms="13069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageText()[pri:1, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T06:19:37 IST" name="verifyHomePageText" finished-at="2025-03-27T06:19:37 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.base.Basetest.setUp(Basetest.java:15)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="verifyHomePageText()[pri:1, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T06:26:51 IST" name="verifyHomePageText" finished-at="2025-03-27T06:26:54 IST" duration-ms="2902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T06:19:37 IST" name="tearDown" finished-at="2025-03-27T06:19:37 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T06:26:54 IST" name="tearDown" finished-at="2025-03-27T06:26:55 IST" duration-ms="464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
