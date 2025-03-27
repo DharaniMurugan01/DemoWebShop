@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 2, Errors: 0, Skipped: 13, Time elapsed: 23.75 s <<< FAILURE! -- in TestSuite
-com.tests.Registertest.setUp -- Time elapsed: 19.02 s <<< FAILURE!
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 16, Time elapsed: 14.02 s <<< FAILURE! -- in TestSuite
+com.tests.Registertest.setUp -- Time elapsed: 10.17 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
@@ -52,7 +52,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-com.tests.Hometest.setUp -- Time elapsed: 3.542 s <<< FAILURE!
+com.tests.Hometest.setUp -- Time elapsed: 2.617 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)

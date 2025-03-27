@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-27T05:38:54 IST" name="Test Suite" finished-at="2025-03-27T05:39:14 IST" duration-ms="20125">
+  <suite started-at="2025-03-27T05:47:44 IST" name="Test Suite" finished-at="2025-03-27T05:47:55 IST" duration-ms="11309">
     <groups>
     </groups>
-    <test started-at="2025-03-27T05:38:54 IST" name="HomePage Test" finished-at="2025-03-27T05:39:14 IST" duration-ms="20125">
+    <test started-at="2025-03-27T05:47:44 IST" name="HomePage Test" finished-at="2025-03-27T05:47:55 IST" duration-ms="11309">
       <class name="com.tests.Registertest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:38:59 IST" name="setUp" finished-at="2025-03-27T05:39:10 IST" duration-ms="11839" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:47 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="5285" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
@@ -73,7 +73,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:10 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:39:10 IST" duration-ms="1" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -171,15 +171,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:10 IST" name="tearDown" finished-at="2025-03-27T05:39:10 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:10 IST" name="setUp" finished-at="2025-03-27T05:39:10 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:10 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:39:10 IST" duration-ms="1" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="9" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -198,7 +198,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="3">
               <value>
-                <![CDATA[2k]]>
+                <![CDATA[2k1]]>
               </value>
             </param>
             <param index="4">
@@ -277,15 +277,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:11 IST" name="tearDown" finished-at="2025-03-27T05:39:11 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:11 IST" name="setUp" finished-at="2025-03-27T05:39:11 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:11 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:39:11 IST" duration-ms="1" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -304,7 +304,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="3">
               <value>
-                <![CDATA[2k20gu@gmail.com]]>
+                <![CDATA[2k21cse040@kiot.ac.in]]>
               </value>
             </param>
             <param index="4">
@@ -383,15 +383,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:11 IST" name="tearDown" finished-at="2025-03-27T05:39:11 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:11 IST" name="setUp" finished-at="2025-03-27T05:39:11 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:11 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:39:11 IST" duration-ms="0" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -489,13 +489,119 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:39:11 IST" name="tearDown" finished-at="2025-03-27T05:39:11 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
+Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
+Host info: host: 'DESKTOP-7IL8GUR', ip: '192.168.86.251'
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at com.base.Basetest.setUp(Basetest.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.Registertest -->
       <class name="com.tests.Hometest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:39:11 IST" name="setUp" finished-at="2025-03-27T05:39:14 IST" duration-ms="3494" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:55 IST" duration-ms="2594" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
@@ -561,7 +667,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageText()[pri:1, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:39:14 IST" name="verifyHomePageText" finished-at="2025-03-27T05:39:14 IST" duration-ms="1" status="SKIP">
+        <test-method signature="verifyHomePageText()[pri:1, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:47:55 IST" name="verifyHomePageText" finished-at="2025-03-27T05:47:55 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
@@ -627,7 +733,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:39:14 IST" name="tearDown" finished-at="2025-03-27T05:39:14 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:47:55 IST" name="tearDown" finished-at="2025-03-27T05:47:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
