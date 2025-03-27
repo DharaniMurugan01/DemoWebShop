@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-27T05:47:44 IST" name="Test Suite" finished-at="2025-03-27T05:47:55 IST" duration-ms="11309">
+  <suite started-at="2025-03-27T05:59:32 IST" name="Test Suite" finished-at="2025-03-27T05:59:43 IST" duration-ms="10956">
     <groups>
     </groups>
-    <test started-at="2025-03-27T05:47:44 IST" name="HomePage Test" finished-at="2025-03-27T05:47:55 IST" duration-ms="11309">
+    <test started-at="2025-03-27T05:59:32 IST" name="HomePage Test" finished-at="2025-03-27T05:59:43 IST" duration-ms="10956">
       <class name="com.tests.Registertest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:47 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="5285" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:35 IST" name="setUp" finished-at="2025-03-27T05:59:40 IST" duration-ms="4837" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
@@ -73,7 +73,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="2" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -171,15 +171,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="tearDown" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="setUp" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="9" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:59:40 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -277,15 +277,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="tearDown" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="setUp" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="1" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -383,15 +383,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="tearDown" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="setUp" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -489,15 +489,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="tearDown" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="setUp" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="register" data-provider="exceldata" finished-at="2025-03-27T05:59:40 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -595,13 +595,13 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:47:52 IST" name="tearDown" finished-at="2025-03-27T05:47:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Registertest@3febb011]" started-at="2025-03-27T05:59:40 IST" name="tearDown" finished-at="2025-03-27T05:59:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.Registertest -->
       <class name="com.tests.Hometest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:47:52 IST" name="setUp" finished-at="2025-03-27T05:47:55 IST" duration-ms="2594" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:59:40 IST" name="setUp" finished-at="2025-03-27T05:59:43 IST" duration-ms="2515" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
@@ -667,7 +667,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageText()[pri:1, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:47:55 IST" name="verifyHomePageText" finished-at="2025-03-27T05:47:55 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyHomePageText()[pri:1, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:59:43 IST" name="verifyHomePageText" finished-at="2025-03-27T05:59:43 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
@@ -733,7 +733,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:47:55 IST" name="tearDown" finished-at="2025-03-27T05:47:55 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Hometest@6aba2b86]" started-at="2025-03-27T05:59:43 IST" name="tearDown" finished-at="2025-03-27T05:59:43 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
