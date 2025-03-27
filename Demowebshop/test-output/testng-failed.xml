@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.listener.Testlistener"/>
+  </listeners>
   <test thread-count="5" parallel="tests" name="HomePage Test(failed)" verbose="0">
     <classes>
       <class name="com.tests.Registertest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="register" invocation-numbers="2"/>
+          <include name="register"/>
         </methods>
       </class> <!-- com.tests.Registertest -->
+      <class name="com.tests.Hometest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePageText"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tests.Hometest -->
     </classes>
   </test> <!-- HomePage Test(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->
